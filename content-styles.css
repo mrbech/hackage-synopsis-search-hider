@@ -1,0 +1,3 @@
+#synopsis details:not([open]) > ul {
+  visibility: hidden;
+}

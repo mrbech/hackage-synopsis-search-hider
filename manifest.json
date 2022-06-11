@@ -1,0 +1,11 @@
+{
+  "name": "Hackage Synopsis Search Hider",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://hackage.haskell.org/*"],
+      "css": ["content-styles.css"]
+    }
+  ]
+}
