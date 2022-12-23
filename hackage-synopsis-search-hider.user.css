@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           Hackage Synopsis Search Hider
+@namespace      github.com/openstyles/stylus
+@version        1
+@description    A userstyle that applies the fix in https://github.com/haskell/haddock/pull/1486/files to hackage.haskell.org
+@author         https://github.com/mrbech/
+==/UserStyle== */
+
+@-moz-document domain("hackage.haskell.org") {
+  #synopsis details:not([open]) > ul {
+    visibility: hidden;
+  }
+}
+
